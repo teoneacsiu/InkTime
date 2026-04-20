@@ -2,10 +2,6 @@
 
 Smartwatch open-source bazat pe **nRF52840**, proiectat pentru cursul TSC. Acest repository conține partea de hardware, manufacturing și integrare mecanică pentru varianta **InkTime**.
 
-> **Notă importantă**  
-> `BOM.csv` din acest repo este un **BOM de documentație** pentru componentele critice și pentru secțiunea din README.  
-> **BOM-ul final de fabricație** trebuie exportat din Fusion/EAGLE după ce schematic-ul și PCB-ul sunt finalizate, pentru a include toate pasivele, orientările și footprint-urile finale.
-
 ---
 
 ## Structura repository-ului
@@ -132,10 +128,6 @@ Această separare permite:
 
 ## Interfețe și mapare pini nRF52840
 
-> **Notă**  
-> Tabelul de mai jos este construit din schema curentă și este suficient pentru documentarea de review.  
-> Înainte de predare, trebuie reverificat 1:1 cu schematic-ul final și actualizat dacă apar modificări.
-
 | Funcție | Net / semnal | Pin nRF52840 | Motiv |
 |---|---|---:|---|
 | I2C data | SDA | P0.06 | magistrală comună pentru PMIC, IMU, fuel gauge, haptic |
@@ -242,8 +234,6 @@ BOM-ul de mai jos conține **componentele critice**. Pentru BOM-ul complet de pr
 | Battery | Li-Po battery | TBD | 1 | model 3D de desenat |
 | Display | E-paper module | TBD | 1 | model 3D de desenat |
 | Shaker | ERM/LRA actuator | TBD | 1 | model 3D de desenat |
-
-Vezi și fișierul [`Manufacturing/BOM.csv`](Manufacturing/BOM.csv).
 
 ---
 
